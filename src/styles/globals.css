@@ -1,10 +1,91 @@
-
+/* Import Tailwind CSS base styles */
 @tailwind base;
+
+/* Import Tailwind CSS component styles */
 @tailwind components;
+
+/* Import Tailwind CSS utility styles */
 @tailwind utilities;
 
+/* Global font and reset */
 body {
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+  @apply bg-gray-50 text-gray-800 font-sans leading-relaxed antialiased;
+  margin: 0;
+  padding: 0;
 }
-            
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-gray-900;
+}
+
+a {
+  @apply text-blue-600 hover:underline;
+}
+
+button {
+  @apply px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors duration-300;
+}
+
+input, textarea {
+  @apply border border-gray-300 rounded-md p-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
+
+ul {
+  @apply list-disc pl-5;
+}
+
+li {
+  @apply mb-2;
+}
+
+table {
+  @apply table-auto border-collapse w-full;
+}
+
+th, td {
+  @apply border border-gray-300 px-4 py-2 text-left;
+}
+
+th {
+  @apply bg-gray-100 font-semibold;
+}
+
+img {
+  @apply max-w-full rounded-md;
+}
+
+/* Utility classes for specific sections */
+.hero {
+  @apply text-center bg-gradient-to-b from-blue-800 to-black text-white py-20;
+}
+
+.card {
+  @apply bg-white border border-gray-200 rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow duration-300;
+}
+
+footer {
+  @apply bg-gray-900 text-white py-4 text-center;
+}
+
+header {
+  @apply bg-gradient-to-r from-blue-600 to-purple-700 text-white py-4 shadow-md;
+}
+
+/* Responsive typography */
+@media (min-width: 640px) {
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-3xl;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+}
