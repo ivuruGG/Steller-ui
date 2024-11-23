@@ -5,7 +5,7 @@
   <p>
     宇宙の壮大さとデザインのエレガンスを融合したホームページプロジェクト
   </p>
-  <img src="header-image-url" alt="Stellar-UI Banner" width="800">
+  <img src="img/readme/header-image.png" alt="Stellar-UI Banner" width="800">
 </div>
 
 ---
@@ -95,6 +95,6 @@ project-root/
 
 <!-- FOOTER -->
 <div align="center">
-  <img src="footer-image-url" alt="Stellar-UI Footer" width="800">
+  <img src="img/readme/footer-image.png" alt="Stellar-UI Footer" width="800">
   <p>Made with 🌟🌟 by [@ivurugg]</p>
 </div>
