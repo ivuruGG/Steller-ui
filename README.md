@@ -1,6 +1,5 @@
 <!-- HEADER -->
 <div align="center">
-  <img src="https://via.placeholder.com/800x200?text=Stellar-UI" alt="Stellar-UI" width="100%" />
   <h1>🌌 Stellar-UI</h1>
   <p>
     宇宙の壮大さとデザインのエレガンスを融合したホームページプロジェクト
@@ -32,9 +31,6 @@
 
 ---
 
-## 🎨 プロジェクト構造
-
-Stellar-UI/ ├── public/ # 静的ファイル (画像やアイコン、フォント) ├── src/ # アプリケーションのメインコード │ ├── components/ # 再利用可能なUIコンポーネント │ ├── pages/ # ページ構成 │ ├── styles/ # CSSやTailwind設定 │ ├── utils/ # ユーティリティ関数 │ ├── App.jsx # アプリケーションのエントリーポイント │ └── main.jsx # Reactのエントリーポイント ├── .gitignore # Gitで追跡しないファイルを指定 ├── package.json # プロジェクトの依存関係とスクリプト ├── tailwind.config.js # Tailwind CSSの設定 ├── vite.config.js # Viteの設定 └── README.md # プロジェクトの概要
 
 
 ---
@@ -58,5 +54,4 @@ Stellar-UI/ ├── public/ # 静的ファイル (画像やアイコン、フ�
 <!-- FOOTER -->
 <div align="center">
   <p>Made with 🌟🌟 by [@ivurugg]</p>
-  <img src="https://via.placeholder.com/400x100?text=Thanks+for+Visiting!" alt="Thank You" width="50%"/>
 </div>
