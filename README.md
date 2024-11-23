@@ -34,36 +34,7 @@
 
 ## 🎨 プロジェクト構造
 
-Stellar-UI/
-├── public/
-│   ├── favicon.ico
-│   ├── logo.png
-│   └── assets/
-├── src/
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Hero.jsx
-│   │   ├── Portfolio.jsx
-│   │   └── Card.jsx
-│   ├── pages/
-│   │   ├── index.jsx
-│   │   ├── about.jsx
-│   │   └── contact.jsx
-│   ├── styles/
-│   │   ├── globals.css
-│   │   └── tailwind.css
-│   ├── utils/
-│   │   ├── api.js
-│   │   └── helpers.js
-│   ├── App.jsx
-│   └── main.jsx
-├── .gitignore
-├── package.json
-├── package-lock.json
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
+Stellar-UI/ ├── public/ # 静的ファイル (画像やアイコン、フォント) ├── src/ # アプリケーションのメインコード │ ├── components/ # 再利用可能なUIコンポーネント │ ├── pages/ # ページ構成 │ ├── styles/ # CSSやTailwind設定 │ ├── utils/ # ユーティリティ関数 │ ├── App.jsx # アプリケーションのエントリーポイント │ └── main.jsx # Reactのエントリーポイント ├── .gitignore # Gitで追跡しないファイルを指定 ├── package.json # プロジェクトの依存関係とスクリプト ├── tailwind.config.js # Tailwind CSSの設定 ├── vite.config.js # Viteの設定 └── README.md # プロジェクトの概要
 
 
 ---
@@ -86,6 +57,6 @@ Stellar-UI/
 
 <!-- FOOTER -->
 <div align="center">
-  <p>Made with ❤️ by [あなたの名前]</p>
+  <p>Made with 🌟🌟 by [@ivurugg]</p>
   <img src="https://via.placeholder.com/400x100?text=Thanks+for+Visiting!" alt="Thank You" width="50%"/>
 </div>
