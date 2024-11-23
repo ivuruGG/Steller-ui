@@ -1,9 +1,11 @@
+
 <!-- HEADER -->
 <div align="center">
   <h1>🌌 Stellar-UI</h1>
   <p>
     宇宙の壮大さとデザインのエレガンスを融合したホームページプロジェクト
   </p>
+  <img src="header-image-url" alt="Stellar-UI Banner" width="800">
 </div>
 
 ---
@@ -29,9 +31,49 @@
 - **軽量かつ高速**  
   Next.jsを基盤にしたモダンな技術スタック。
 
+- **カスタマイズ性**  
+  Tailwind CSSによる柔軟なスタイリング。
+
 ---
 
+## 🛠️ 技術スタック
 
+- **フロントエンド**:  
+  - [Next.js](https://nextjs.org/)  
+  - [React](https://reactjs.org/)  
+
+- **スタイリング**:  
+  - [Tailwind CSS](https://tailwindcss.com/)  
+  - [Framer Motion](https://www.framer.com/motion/)  
+
+- **データ管理**:  
+  - [PostgreSQL](https://www.postgresql.org/)  
+  - [Prisma ORM](https://www.prisma.io/)  
+
+- **ホスティング**:  
+  - [Vercel](https://vercel.com/)  
+
+- **API連携**:  
+  - Twitter API, Instagram Graph API, YouTube Data API  
+
+---
+
+## 📂 プロジェクト構造
+
+```
+project-root/
+├── public/                # 静的ファイル（画像、フォントなど）
+├── src/                   # ソースコード
+│   ├── components/        # 再利用可能なReactコンポーネント
+│   ├── pages/             # Next.jsの各ページ
+│   ├── styles/            # Tailwind CSSのスタイル定義
+│   ├── utils/             # ユーティリティ関数
+│   └── animations/        # Framer MotionとGSAP用のアニメーション定義
+├── prisma/                # データベーススキーマ定義
+├── .env                   # 環境変数
+├── package.json           # プロジェクト設定と依存関係
+└── README.md              # プロジェクト概要
+```
 
 ---
 
@@ -53,5 +95,6 @@
 
 <!-- FOOTER -->
 <div align="center">
+  <img src="footer-image-url" alt="Stellar-UI Footer" width="800">
   <p>Made with 🌟🌟 by [@ivurugg]</p>
 </div>
