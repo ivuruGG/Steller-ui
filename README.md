@@ -1,7 +1,7 @@
 
 <!-- HEADER -->
 <div align="center">
-  <h1>🌌 Stellar-UI</h1>
+  <h1>🌌 Stellar-ui</h1>
   <p>
     宇宙の壮大さとデザインのエレガンスを融合したホームページプロジェクト
   </p>
