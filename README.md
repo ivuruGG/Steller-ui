@@ -92,7 +92,7 @@ project-root/
    コンポーネントを適切に分割し、メンテナンス性を向上。
 
 ---
-
+ 
 <!-- FOOTER -->
 <div align="center">
   <img src="img/readme/footer-image.png" alt="Stellar-UI Footer" width="800">
